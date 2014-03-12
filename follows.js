@@ -12,12 +12,12 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
-		applicationName	= '', // Replaces Xively logo in the header
-		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
-		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
+	var defaultKey		= 'mN56NZh42I3yQ8yPnOvP2BQysrFbU888dLyjBcL7O1vEbI8d', // Unique master Xively API key to be used as a default
+		defaultFeeds	= ['1300967288'], // Comma separated array of Xively Feed ID numbers
+		applicationName	= 'RPi CPU load and temperature monitor', // Replaces Xively logo in the header
+		dataDuration	= '6hours', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataInterval	= 30, // Default interval for data to be displayed (in seconds)
+		dataColor		= 'FF0000', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
